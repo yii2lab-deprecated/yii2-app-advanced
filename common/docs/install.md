@@ -7,11 +7,6 @@
  * composer
  * codecept
 
-Создать БД:
-
-* для разработки
-* для тестирования
-
 Создать проект
 
 ```
@@ -42,6 +37,11 @@ composer install
 composer install --no-dev
 ```
 
+Создать БД:
+
+* для разработки
+* для тестирования
+
 Инициализировать проект
 
 ```
@@ -63,3 +63,9 @@ php yii_test migrate
 ```
 php yii fixtures
 ```
+
+Назначить домены
+
+* API - api/web
+* админка - backend/web
+* сайт - frontend/web
