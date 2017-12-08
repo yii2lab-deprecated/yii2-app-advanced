@@ -1,89 +1,85 @@
 {
-  "name": "woop/yii2-wooppay-com",
-  "description": "Wooppay web application",
-  "keywords": [
-	"wooppay",
-	"wallet",
-	"payment"
-  ],
-  "homepage": "http://wooppay.com/",
-  "type": "project",
-  "minimum-stability": "stable",
-  "require": {
-	"yiisoft/yii2": "2.0.*",
-	"yiisoft/yii2-bootstrap": "2.0.6.0",
-	"yiisoft/yii2-swiftmailer": "2.0.7",
-	"yiisoft/yii2-queue": "^2.0",
+	"name": "yii2lab/yii2-app-advanced",
+	"description": "Yii 2.0 Advanced Application Template",
+	"keywords": ["yii2", "framework", "advanced", "project template"],
+	"type": "project",
+	"minimum-stability": "stable",
+	"require": {
+		"yiisoft/yii2": "2.0.*",
+		"yiisoft/yii2-bootstrap": "2.0.6.0",
+		"yiisoft/yii2-swiftmailer": "2.0.7",
+		"yiisoft/yii2-queue": "^2.0",
+		"oomphinc/composer-installers-extender": "^1.1",
+		"bower-asset/admin-lte": "~2.0",
+		"bower-asset/font-awesome": "~4.0",
+		"kartik-v/yii2-widgets": "3.4.0.0",
+		"mdmsoft/yii2-admin": "~2.0",
+		"deesoft/yii2-console": "1.1.0.0",
+		"zhuravljov/yii2-logreader": "*",
+		"paulzi/yii2-json-behavior": "^1.0",
 
-	"oomphinc/composer-installers-extender": "^1.1",
-	"bower-asset/admin-lte": "~2.0",
-	"bower-asset/font-awesome": "~4.0",
+		"yii2lab/yii2-app": "v1.1.*",
+		"yii2lab/yii2-init": "v1.1.*",
+		"yii2lab/yii2-console": "v1.2.*",
+		"yii2lab/yii2-migration": "v1.1.*",
+		"yii2lab/yii2-rbac": "v1.1.*",
+		"yii2lab/yii2-store": "v1.0.*",
+		"yii2lab/yii2-rest": "v1.0.*",
+		"yii2lab/yii2-helpers": "v1.1.*",
+		"yii2lab/yii2-misc": "v1.1.*",
+		"yii2lab/yii2-ubuntu-font": "v1.0.*",
+		"yii2lab/yii2-validator": "v1.0.*",
+		"yii2lab/yii2-domain": "v1.2.*",
+		"yii2lab/yii2-notify": "v1.1.*",
+		"yii2lab/yii2-widgets": "v1.0.*",
+		"yii2lab/yii2-navigation": "v1.0.*",
 
-	"kartik-v/yii2-widgets": "3.4.0.0",
-	"mdmsoft/yii2-admin": "~2.0",
-	"deesoft/yii2-console": "1.1.0.0",
-	"zhuravljov/yii2-logreader": "*",
-	"paulzi/yii2-json-behavior": "^1.0",
+		"yii2module/yii2-offline": "v1.1.*",
+		"yii2module/yii2-cleaner": "v1.1.*",
+		"yii2module/yii2-error": "v1.1.*",
+		"yii2module/yii2-lang": "v1.0.*",
+		"yii2module/yii2-restapidoc": "v1.0.*",
+		"yii2woop/yii2-account": "v1.1.*",
 
+		"php": ">=5.4.0"
+	},
+	"require-dev": {
+		"yiisoft/yii2-debug": "~2.0.0",
+		"yiisoft/yii2-gii": "~2.0.0",
+		"yiisoft/yii2-apidoc": "~2.0.0",
 
-	"yii2lab/yii2-app": "dev-master",
-	"yii2lab/yii2-init": "dev-master",
-	"yii2lab/yii2-console": "dev-master",
-	"yii2lab/yii2-migration": "dev-master",
-	"yii2lab/yii2-rbac": "dev-master",
-	"yii2lab/yii2-store": "dev-master",
-	"yii2lab/yii2-rest": "dev-master",
-	"yii2lab/yii2-helpers": "dev-master",
-	"yii2lab/yii2-misc": "dev-master",
-	"yii2lab/yii2-ubuntu-font": "dev-master",
-	"yii2lab/yii2-validator": "dev-master",
-	"yii2lab/yii2-domain": "dev-master",
-	"yii2lab/yii2-notify": "dev-master",
-	"yii2lab/yii2-widgets": "dev-master",
-	"yii2lab/yii2-navigation": "dev-master",
+		"yii2lab/yii2-test": "v1.0.*",
+		
+		"yii2module/yii2-environments": "v1.1.*",
+		"yii2module/yii2-fixture": "v1.1.*",
+		"yii2module/yii2-test": "v1.0.*",
+		"yii2module/yii2-rest-client": "v1.1.*",
+		"yii2module/yii2-github": "v1.1.*",
+		"yii2module/yii2-guide": "v1.3.*",
 
-	"yii2module/yii2-offline": "dev-master",
-	"yii2module/yii2-cleaner": "dev-master",
-	"yii2module/yii2-error": "dev-master",
-	"yii2module/yii2-rbac": "dev-master",
-	"yii2module/yii2-lang": "dev-master",
-	"yii2module/yii2-restapidoc": "dev-master",
-
-	"yii2woop/yii2-account": "dev-master",
-
-
-	"php": ">=5.4.0"
-  },
-  "require-dev": {
-	"yiisoft/yii2-debug": "~2.0.0",
-	"yiisoft/yii2-gii": "~2.0.0",
-	"yiisoft/yii2-apidoc": "~2.0.0",
-
-	"yii2lab/yii2-test": "dev-master",
-	"yii2module/yii2-environments": "dev-master",
-	"yii2module/yii2-fixture": "dev-master",
-	"yii2module/yii2-test": "dev-master",
-	"yii2module/yii2-rest-client": "dev-master",
-	"yii2module/yii2-github": "dev-master",
-	"yii2module/yii2-guide": "dev-master",
-
-	"guzzlehttp/guzzle": "*",
-	"codeception/base": "^2.2.3",
-	"codeception/verify": "~0.3.1"
-  },
-  "config": {
-	"process-timeout": 1800
-  },
-  "extra": {
-	"installer-types": ["bower-asset", "npm-asset"],
-	"installer-paths": {
-	  "vendor/{$vendor}/{$name}/": ["type:bower-asset", "type:npm-asset"]
-	}
-  },
-  "repositories": [
-	{
-	  "type": "composer",
-	  "url": "https://asset-packagist.org"
-	}
-  ]
+		"guzzlehttp/guzzle": "*",
+		"codeception/base": "^2.2.3",
+		"codeception/verify": "~0.3.1"
+	},
+	"config": {
+		"process-timeout": 1800
+	},
+	"extra": {
+		"installer-types": [
+			"bower-asset",
+			"npm-asset"
+		],
+		"installer-paths": {
+			"vendor/{$vendor}/{$name}/": [
+				"type:bower-asset",
+				"type:npm-asset"
+			]
+		}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		}
+	]
 }
