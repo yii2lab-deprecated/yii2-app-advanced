@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+use yii2lab\init\helpers\Init;
+
+require_once(__DIR__ . '/vendor/autoload.php');
+
+$init = new Init;
+$init->run();

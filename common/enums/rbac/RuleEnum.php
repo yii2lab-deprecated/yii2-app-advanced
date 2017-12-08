@@ -1,0 +1,19 @@
+<?php
+
+namespace common\enums\rbac;
+
+use yii2lab\misc\enums\BaseEnum;
+
+/**
+ * Class RuleEnum
+ *
+ * Этот класс был сгенерирован автоматически.
+ * Не вносите в данный файл изменения, они затрутся при очередной генерации
+ *
+ * @package common\enums\rbac
+ */
+class RuleEnum extends BaseEnum {
+
+	const IS_WRITABLE = 'isWritable';
+
+}

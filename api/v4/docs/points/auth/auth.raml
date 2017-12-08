@@ -1,0 +1,51 @@
+description: "Аутентификация"
+post:
+    description: "Получение токена"
+    is: [lang, code200, code400, code415, code422, code429, code500]
+    body:
+        application/json:
+            #type: !include schema/login.json
+            example: !include example/login.json
+    responses:
+        200:
+            description: "Аутентификация прошла успешно"
+            body:
+                application/json:
+                    #type: !include schema/access-token.json
+                    example: !include example/access-token.json
+
+get:
+    securedBy: [TPSAuth]
+    description: |
+        Получение информации текущего пользователя
+
+        gender: false – муж, true - жен
+    is: !include /../../docs/is/get-details.raml
+    responses:
+        200:
+            body:
+                application/json:
+                    #type: !include schema/info.json
+                    example: !include example/info.json
+/restore-password:
+    /request:
+        post:
+            description: "Запрос на восстановление пароля"
+            is: !include /../../docs/is/post.raml
+            body:
+                application/json:
+                    example: !include example/restore-password/request.json
+    /check-code:
+        post:
+            description: "Проверка кода активации"
+            is: !include /../../docs/is/post204.raml
+            body:
+                application/json:
+                    example: !include example/restore-password/check-code.json
+    /confirm:
+        post:
+            description: "Назначение нового пароля"
+            is: !include /../../docs/is/post204.raml
+            body:
+                application/json:
+                    example: !include example/restore-password/confirm.json
