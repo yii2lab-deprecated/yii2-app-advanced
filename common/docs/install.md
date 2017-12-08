@@ -15,7 +15,7 @@
 Создать проект
 
 ```
-composer create-project --prefer-dist yiisoft/yii2-app-advanced yii-application
+composer create-project --prefer-dist yii2lab/yii2-app-advanced yii-application
 ```
 
 Установить ``oauth-token`` от ``Github``
