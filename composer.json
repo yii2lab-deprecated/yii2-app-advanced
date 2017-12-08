@@ -3,7 +3,7 @@
 	"description": "Yii 2.0 Advanced Application Template",
 	"keywords": ["yii2", "framework", "advanced", "project template"],
 	"type": "project",
-	"minimum-stability": "stable",
+	"minimum-stability": "dev",
 	"require": {
 		"yiisoft/yii2": "2.0.*",
 		"yiisoft/yii2-bootstrap": "2.0.6.0",
