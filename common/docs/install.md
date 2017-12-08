@@ -12,13 +12,11 @@
 * для разработки
 * для тестирования
 
-Настроить хосты
+Создать проект
 
 ```
-192.168.8.138	dbweb tps static memcachedweb
+composer create-project --prefer-dist yiisoft/yii2-app-advanced yii-application
 ```
-
-Клонировать проект из ветки develop.
 
 Установить ``oauth-token`` от ``Github``
 
