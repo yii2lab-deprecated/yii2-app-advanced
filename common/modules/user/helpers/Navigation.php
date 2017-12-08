@@ -52,12 +52,13 @@ class Navigation {
 	{
 		/** @var LoginEntity $identity */
 		$identity = Yii::$app->user->identity;
-		$balanceEntity = $identity->balance;
-		$avatar = '<img src="'. $identity->profile->avatar_url . '" height="19" />';
-		//$balance = '(' . t('account/balance' ,'title') . ': <b>'. floatval($balanceEntity->active) . '</b>)';
-		$label = $avatar . NBSP . '<small>'. $identity->username . NBSP
-			//$balance
-			. '</small>';
+		if(is_object($identity->profile)) {
+			$avatar = '<img src="'. $identity->profile->avatar_url . '" height="19" />';
+		} else {
+			$avatar = '';
+		}
+		$balance = '';
+		$label = $avatar . NBSP . '<small>'. $identity->username . NBSP .	$balance . '</small>';
 		return [
 			'label' => $label,
 			'encode' => false,

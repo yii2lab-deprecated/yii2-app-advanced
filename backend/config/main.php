@@ -24,6 +24,7 @@ return [
 		'errorHandler' => [
 			'errorAction' => 'error/error/error',
 		],
+		
 		'urlManager' => [
 			'rules' => [
 				''=> 'dashboard',

@@ -18,7 +18,7 @@ return [
 		'@vendor/yii2lab/yii2-geo/src/domain/migrations',
 	],
 	'dee.migration.scan' => [
-		'@domain',
+		//'@domain',
 	],
 	'fixture' => [
 		'dir' => '@common/fixtures',
