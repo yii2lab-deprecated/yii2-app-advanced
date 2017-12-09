@@ -2,4 +2,4 @@
 ==============
 
 Выполнить основную 
-[инструкцию по установке](https://github.com/yii2module/yii2-guide/blob/master/guide/main/ru/template-install.md)
+[инструкцию по установке](https://github.com/yii2module/yii2-guide/blob/master/guide/template/ru/template-install.md)
