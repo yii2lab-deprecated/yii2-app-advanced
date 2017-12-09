@@ -1,20 +1,29 @@
-Шаблон проекта на Yii2
-===================
 
-Шаблон для разработки больших проектов.
-Основан на [Yii 2.0 Advanced Application Template](https://github.com/yiisoft/yii2-app-advanced) и переработан.
+<p align="center">
+    <a href="https://github.com/yiisoft" target="_blank">
+        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
+    </a>
+    <h1 align="center">Шаблон проекта Yii2</h1>
+    <br>
+</p>
 
-Изначально, шаблон точился на одном проекте.
-Затем большая часть кода перекочевала в composer-пакеты.
-Шаблон стал гибким, удобным и легковесным.
+[![Latest Stable Version](https://poser.pugx.org/yii2lab/yii2-app-advanced/v/stable.png)](https://packagist.org/packages/yii2lab/yii2-app-advanced)
+[![Total Downloads](https://poser.pugx.org/yii2lab/yii2-app-advanced/downloads.png)](https://packagist.org/packages/yii2lab/yii2-app-advanced)
 
-На этом шаблоне запустили разработку еще двух проектов.
-Шло время, правились баги, делались фитчи, 
-решались пролемы совместимости пакетов между проектами,
-исправлялись архитектурные недочеты.
+Шаблон для разработки больших веб-приложений.
+Основан на [Yii 2.0 Advanced Application Template](https://github.com/yiisoft/yii2-app-advanced) и улучшен.
 
-Так вышла в свет нулевая версия шаблона, 
-который можно брать за основу для разработки долгосрочных проектов.
+Шаблон включает в себя 4 приложения:
+
+* API
+* Пользовательская часть
+* Админка
+* Консоль
+
+каждый их которых представляет собой отдельное приложение.
+
+Шаблон предназначен для работы в командной среде разработки.
+Он поддерживает развертывание приложения в разных средах.
 
 ## Изменения шаблона
 

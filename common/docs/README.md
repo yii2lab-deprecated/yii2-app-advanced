@@ -15,16 +15,5 @@
 * [Params](config-params.md)
 * [Основная панель](config-navbar.md)
 
-## Домены
-
-* [Банк (bank)](services-bank.md)
-* [Платёж (transaction)](services-transaction.md)
-* [Перевод (transfer)](services-transfer.md)
-* [Сервис (service)](services-service.md)
-* [Сводные данные (summary)](services-summary.md)
-* [Активы (active)](services-active.md)
-
-## RBAC
-
-* [Разрешения](rbac-permissions.md)
-* [Роли](rbac-roles.md)
+* [Концепции разработки](development.md)
+* [Введение](intro.md)
