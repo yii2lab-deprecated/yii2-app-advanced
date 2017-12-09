@@ -18,5 +18,5 @@
 
 ## Ссылки
 
-* [Руководство](common/docs/README.md)
-* [Инструкция по установке](common/docs/install.md)
+* [Установка](common/guide/ru/install.md)
+* [Руководство по проекту](common/guide/ru/README.md)
